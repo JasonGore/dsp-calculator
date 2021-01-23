@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "DSP Calculator",
+  "name": "Dyson Sphere Program: Calculator Edition",
   "icons": [
     {
       "src": "favicon.ico",

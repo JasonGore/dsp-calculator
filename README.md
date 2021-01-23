@@ -1,46 +1,36 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is just a simple React app that will show you all of the subcomponents needed to make a specified quantity of a specific item, like:
 
-In the project directory, you can run:
+![alt text](./calculator.png "App Snapshot")
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# How do I run this?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Unfortunately there's currently no easy way to run this other than setting up a basic React dev environment. If you want to do that:
 
-### `yarn test`
+1. Install [git](https://git-scm.com/downloads)
+1. Install [Node LTS](https://nodejs.org/en/download/)
+1. Open a console window
+1. Type `npm i -g yarn` to install yarn (package manager utility for app)
+1. Enter a directory you wish to store source code in and type `git clone https://github.com/JasonGore/dsp-calculator.git`
+1. Type `cd dsp-calculator` to enter cloned directory
+1. Type `yarn` to install necessary modules
+1. Type `yarn start` to launch the app (it should open a browser window, but is otherwise available at http://localhost:3000/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How can I browse the code?
 
-### `yarn build`
+I'd just install [VS Code](https://code.visualstudio.com/), launch it, and then "Open Folder" and select the `dsp-calculator` directory. (Or better yet, just run `code .` from the `dsp-calculator` directory.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Can I help?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Certainly! There's tons of recipes and data missing and the core data is [here](https://github.com/JasonGore/dsp-calculator/blob/master/src/data/recipes.tsx).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# What other things could be implemented?
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tons of things. Ideas I have:
+* More recipes
+* Alternate recipes
+* Whether items can be made in replicator or not
+* Facility that manufactures item
+* Improved styling and presentation
