@@ -1,4 +1,5 @@
 
+This is just a simple React calculator for [Dyson Sphere Program](https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/), a game that I highly recommend. (Particularly if you're a fan of Satisfactory, Factorio, etc.)
 
 This is just a simple React app that will show you all of the subcomponents needed to make a specified quantity of a specific item, like:
 
