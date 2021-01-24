@@ -30,8 +30,9 @@ Certainly! There's tons of recipes and data missing and the core data is [here](
 # What other things could be implemented?
 
 Tons of things. Ideas I have:
-* More recipes
+* Add tons of missing recipes
 * Alternate recipes
 * Whether items can be made in replicator or not
 * Facility that manufactures item
 * Improved styling and presentation
+* Make app deployable and more easily consumable
