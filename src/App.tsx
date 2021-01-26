@@ -74,6 +74,7 @@ function getRecipeContent(
     return (
       <ul>
         <li>
+          {/* eslint-disable-next-line */}
           <a href="#" onClick={onClick}>
             {ingredient.item}: {(quantity * ingredient.quantity) / recipe.yields}
           </a>
